@@ -1,0 +1,59 @@
+.item-list-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+.category {
+  margin-top: 20px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.item {
+  border: 1px solid #fff; /* Set border color to white */
+  padding: 10px;
+  width: 200px;
+  background-color: #333; /* Set item background color to dark gray */
+  margin: 10px; /* Add margin to ensure spacing between items */
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item img.add-to-cart {
+  width: 30px; /* Set the width of the image */
+  height: 30px; /* Set the height of the image */
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.item h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #fff; /* Set heading color to white */
+}
+
+.item p {
+  font-size: 1em;
+  color: #ccc; /* Set paragraph color to light gray */
+}
+
+@media (max-width: 768px) {
+  .items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    width: 90%;
+  }
+}

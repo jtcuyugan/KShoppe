@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MSSQL",
+            "name": "jtcuyugan.database.windows.net",
+            "database": "kshoppe",
+            "username": "jtcuyugan",
+            "password": "Jm!081602",
+            "connectString": "Server=tcp:jtcuyugan.database.windows.net,1433;Initial Catalog=kshoppe;Persist Security Info=False;User ID=jtcuyugan;Password=Jm!081602;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        }
+    ]
+}

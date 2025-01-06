@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+.storefront {
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the storefront take the full height of the viewport */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product {
+  border: 1px solid #fff; /* Set border color to white */
+  padding: 10px;
+  width: 200px;
+  background-color: #333; /* Set product background color to dark gray */
+  margin: 10px; /* Add margin to ensure spacing between items */
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #fff; /* Set heading color to white */
+}
+
+.product p {
+  font-size: 1em;
+  color: #ccc; /* Set paragraph color to light gray */
+}
+
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+}

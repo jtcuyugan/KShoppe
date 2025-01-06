@@ -1,0 +1,42 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(255, 255, 255, .05); /* Adjust shadow color */
+}
+
+.logo {
+  height: 45px; /* Adjust the height as needed */
+}
+
+.cart {
+  height: 30px; /* Adjust the height as needed */
+}
+
+.navbar {
+  background-color: #000; /* Set navbar background color to black */
+  align-items: center; /* Center content vertically */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Set nav link color to white */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ccc; /* Set nav link hover color to light gray */
+}

@@ -1,0 +1,89 @@
+.cart-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #fff; /* Set border color to white */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  background-color: #333; /* Set item background color to dark gray */
+  position: relative;
+  text-align: left; /* Ensure text is aligned to the left */
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.item-details {
+  text-align: left;
+}
+
+.item-details h2 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #fff; /* Set heading color to white */
+}
+
+.item-details p {
+  font-size: 1em;
+  color: #ccc; /* Set paragraph color to light gray */
+}
+
+.cart-total {
+  margin-top: 20px;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #444; /* Set button background color to dark gray */
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #555; /* Set button hover background color to lighter gray */
+}
+
+.delete-button {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  position: absolute;
+  right: 10px;
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-item img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .item-details {
+    text-align: center;
+  }
+}

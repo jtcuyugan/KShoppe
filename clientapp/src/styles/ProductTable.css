@@ -1,0 +1,137 @@
+.product-table-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #000; /* Set table background color to black */
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #fff; /* Set border color to white */
+  padding: 10px;
+  text-align: left;
+}
+
+.modal-header{
+  background-color: #333;
+}
+
+.modal-title{
+  color: white;
+  
+}
+
+.modal-body{
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.modal-footer{
+  background-color: #333;
+  color: white;
+  
+}
+
+.modal-footer button, .btn-secondary {
+  background-color: white;
+  color: black;
+  border: 1px solid #fff;
+}
+
+button .add {
+  background-color: white;
+  color: black;
+  border: 1px solid #fff;
+}
+
+.product-table th {
+  background-color: #333; /* Set header background color to dark gray */
+}
+
+.product-table td {
+  background-color: #444; /* Set cell background color to slightly lighter gray */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #000; /* Set button background color to black */
+  color: #fff; /* Set button text color to white */
+  border: 1px solid #fff; /* Set button border color to white */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; /* Set button hover background color to dark gray */
+}
+
+.table-body tbody{
+  background-color: black;
+  color: white;
+}
+
+.image-cell img{
+  width: 100px;
+  height: auto;
+}
+
+.table-header th{
+  background-color: black; /* Set header background color to dark gray */
+  color: white;
+}
+
+.table-body tbody{
+  background-color: black;
+  color: white;
+}
+
+.search {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+#filter .dropdown-toggle {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#filter .dropdown-toggle:hover {
+  background-color: #333;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-link.active {
+  color: black; /* Set pagination text color to black */
+  background-color: white; /* Set pagination background color to white */
+}
+
+.pagination .page-link {
+  color: white; /* Set pagination text color to black */
+  background-color: black;
+}
+
+
