@@ -26,7 +26,7 @@ export class ProductTable extends Component {
 
   fetchProducts = () => {
     axios
-      .get("https://localhost:7205/api/product")
+      .get("https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/api/product")
       .then((response) => {
         this.setState({ products: response.data });
       })
@@ -54,7 +54,7 @@ export class ProductTable extends Component {
 
   handleSubmit = () => {
     const { editingProduct, formData } = this.state;
-    const apiEndpoint = editingProduct ? `https://localhost:7205/api/product/${editingProduct.id}` : "https://localhost:7205/api/product";
+    const apiEndpoint = editingProduct ? `https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/api/product/${editingProduct.id}` : "https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/api/product";
     const method = editingProduct ? "put" : "post";
 
     axios[method](apiEndpoint, formData)
@@ -67,7 +67,7 @@ export class ProductTable extends Component {
 
   handleDelete = (id) => {
     axios
-      .delete(`https://localhost:7205/api/product/${id}`)
+      .delete(`https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/api/product/${id}`)
       .then(() => {
         this.fetchProducts();
       })

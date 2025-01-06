@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JamzyMarieCuyugan\\Downloads\\internship\\Presentation Scripts\\KShoppeMVC\\KShoppeMVC.csproj": {}
+    "C:\\Users\\JamzyMarieCuyugan\\Downloads\\KShoppe\\KShoppeMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JamzyMarieCuyugan\\Downloads\\internship\\Presentation Scripts\\KShoppeMVC\\KShoppeMVC.csproj": {
+    "C:\\Users\\JamzyMarieCuyugan\\Downloads\\KShoppe\\KShoppeMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\internship\\Presentation Scripts\\KShoppeMVC\\KShoppeMVC.csproj",
+        "projectUniqueName": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\KShoppe\\KShoppeMVC.csproj",
         "projectName": "KShoppeMVC",
-        "projectPath": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\internship\\Presentation Scripts\\KShoppeMVC\\KShoppeMVC.csproj",
+        "projectPath": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\KShoppe\\KShoppeMVC.csproj",
         "packagesPath": "C:\\Users\\JamzyMarieCuyugan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\internship\\Presentation Scripts\\KShoppeMVC\\obj\\",
+        "outputPath": "C:\\Users\\JamzyMarieCuyugan\\Downloads\\KShoppe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
