@@ -22,9 +22,9 @@ builder.Services.AddDbContext<MyDBContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("https://your-react-app.azurewebsites.net")
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+        builder => builder.WithOrigins("https://calm-beach-075714400.4.azurestaticapps.net/")
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
 });
 
 app.UseCors("AllowSpecificOrigin");
