@@ -25,28 +25,16 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
+app.UseCors("AllowSpecificOrigin");
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 
 // Serve static files (for React built files)
 app.UseStaticFiles();
-
-// Configure React SPA integration
-//app.UseSpa(spa =>
-//{
-//    spa.Options.SourcePath = "clientapp"; // Path to your React app's source
-
-//    if (app.Environment.IsDevelopment())
-//    {
-//        spa.UseProxyToSpaDevelopmentServer("http://localhost:5000"); // React dev server
-//    }
-//});
 
 // Map controller routes
 app.MapControllerRoute(
