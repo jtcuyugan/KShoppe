@@ -15,5 +15,7 @@
             "password": "Jm!081602",
             "connectString": "Server=tcp:jtcuyugan.database.windows.net,1433;Initial Catalog=kshoppe;Persist Security Info=False;User ID=jtcuyugan;Password=Jm!081602;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         }
-    ]
+    ],
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net9.0/publish"
 }
