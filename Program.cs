@@ -21,13 +21,13 @@ builder.Services.AddDbContext<MyDBContext>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins("https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net") // React app's origin
-                .AllowAnyHeader()
-                .AllowAnyMethod();
-    });
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("https://your-react-app.azurewebsites.net")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
 });
+
+app.UseCors("AllowSpecificOrigin");
 
 var app = builder.Build();
 
