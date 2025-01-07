@@ -7,14 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-// Use Azure.Identity to authenticate with Azure SQL Server
-//var azureCredential = new DefaultAzureCredential();
-//var sqlConnection = new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))
-//{
-//    AccessToken = azureCredential.GetToken(
-//        new Azure.Core.TokenRequestContext(
-//            new[] { "https://database.windows.net/.default" })).Token
-//};
 
 builder.Services.AddDbContext<MyDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -26,8 +18,6 @@ builder.Services.AddCors(options =>
                             .AllowAnyMethod()
                             .AllowAnyHeader());
 });
-
-app.UseCors("AllowSpecificOrigin");
 
 var app = builder.Build();
 
@@ -41,7 +31,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors();
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 
 // Serve static files (for React built files)
