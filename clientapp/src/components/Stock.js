@@ -160,7 +160,7 @@ export class Stock extends Component {
             <button type="submit">Add Item</button>
           </form>
           <div className="image-preview">
-            {imagePreviewUrl && <img src={imagePreviewUrl} alt="Image Preview" />}
+            {imagePreviewUrl && <img src={imagePreviewUrl} />}
           </div>
         </div>
         <h2>Existing Items</h2>

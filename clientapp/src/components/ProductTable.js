@@ -102,7 +102,7 @@ export class ProductTable extends Component {
   };
 
   render() {
-    const { currentPage, itemsPerPage, showModal, formData, editingProduct, searchQuery, filterCategory } = this.state;
+    const { currentPage, itemsPerPage, showModal, formData, editingProduct, searchQuery } = this.state;
 
     const filteredProducts = this.getFilteredProducts();
     const paginatedProducts = filteredProducts.slice(

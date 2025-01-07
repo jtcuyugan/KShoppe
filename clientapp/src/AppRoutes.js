@@ -1,5 +1,4 @@
 import { Counter } from "./components/Counter";
-import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
 import { Cart } from "./components/Cart";
 import { ItemList } from "./components/ItemList";
