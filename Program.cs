@@ -22,7 +22,7 @@ builder.Services.AddDbContext<MyDBContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("https://calm-beach-075714400.4.azurestaticapps.net/")
+        builder => builder.WithOrigins("https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/")
                             .AllowAnyMethod()
                             .AllowAnyHeader());
 });
