@@ -24,7 +24,7 @@ export class ItemList extends Component {
 
   fetchProducts = () => {
     axios
-      .get("https://localhost:7205/api/product")
+      .get("https://kshoppe-b9bgg2a4a4adgvg3.southeastasia-01.azurewebsites.net/api/product")
       .then((response) => {
         this.setState({ products: response.data, loading: false });
       })

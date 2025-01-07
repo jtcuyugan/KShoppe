@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KShoppeMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1617112ca55ca549ead3e30d98474790d33e071")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8a628847fab9d0d11b29eab92199a67997509d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KShoppeMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KShoppeMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
